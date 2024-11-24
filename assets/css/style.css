@@ -1,0 +1,20 @@
+body {
+  width: 80%;
+  margin: auto;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background-color: blanchedalmond;
+}
+
+.main-conversor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.seccion-conversor {
+  text-align: center;
+}

@@ -9,22 +9,27 @@
   <body>
     <hr />
     <h1>Conversor de monedas nacional</h1>
+    <span id="mensaje-error"></span>
     <hr />
 
     <div class="conversor-box">
       <div class="main-conversor">
-        <h3>Pesos CLP</h3>
-        <input type="text" placeholder="Ingrese el monto en CLP" />
+        <h3 style="font-size: 25px">Pesos CLP</h3>
+        <input type="text" id="input" placeholder="Ingrese el monto en CLP" />
       </div>
 
       <div class="seccion-conversor">
-        <select name="" id="">
+        <p style="font-weight: bold">Moneda a convertir</p>
+        <select name="" id="moneda-select">
           <option value="dolar">Dólar</option>
-          <option value="rublos">Rublos</option>
+          <option value="euro">Euro</option>
         </select>
         <button class="boton-conversor" id="boton">Buscar</button>
         <p class="resultado-conversor"></p>
       </div>
+    </div>
+    <div>
+      <canvas height="400px" width="600px" id="grafico"></canvas>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="./assets/js/script.js"></script>
